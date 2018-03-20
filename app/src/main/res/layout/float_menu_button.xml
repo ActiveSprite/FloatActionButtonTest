@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.flaotactionmodel.MultiFloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:switchFabColor="@color/colorAccent"
+    app:switchFabIcon="@drawable/ic_add_white_48dp"
+    app:layout_behavior="com.example.flaotactionmodel.HideBehavior"
+    app:animationMode="scale"
+    android:id="@+id/id_fab"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.example.flaotactionmodel.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="删除数据"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete_white_48dp"
+            app:backgroundTint="#468cb7"
+            app:fabSize="mini" />
+    </com.example.flaotactionmodel.TagFabLayout>
+    <com.example.flaotactionmodel.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="查询数据"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_find_in_page_white_48dp"
+            app:backgroundTint="#818aa7"
+            app:fabSize="mini" />
+    </com.example.flaotactionmodel.TagFabLayout>
+    <com.example.flaotactionmodel.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="更改数据"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_create_white_48dp"
+            app:backgroundTint="#5F9EA0"
+            app:fabSize="mini" />
+    </com.example.flaotactionmodel.TagFabLayout>
+    <com.example.flaotactionmodel.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="添加数据"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_circle_white_48dp"
+            app:backgroundTint="#808080"
+            app:fabSize="mini" />
+    </com.example.flaotactionmodel.TagFabLayout>
+    <com.example.flaotactionmodel.TagFabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="查看调用情况"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_insert_emoticon_white_48dp"
+            app:backgroundTint="#9932CC"
+            app:fabSize="mini" />
+    </com.example.flaotactionmodel.TagFabLayout>
+
+</com.example.flaotactionmodel.MultiFloatingActionButton>
